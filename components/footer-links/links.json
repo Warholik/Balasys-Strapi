@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_items",
+  "info": {
+    "name": "items",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

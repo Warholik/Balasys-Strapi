@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-widget.a-sd"
+    }
+  }
+}

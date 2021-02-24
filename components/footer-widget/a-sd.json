@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections",
+  "info": {
+    "name": "Sections",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-links.links"
+    }
+  }
+}
