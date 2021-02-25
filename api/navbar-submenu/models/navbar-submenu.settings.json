@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbar_submenus",
+  "info": {
+    "name": "Navbar-submenu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Subsections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar-subsections.sections"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

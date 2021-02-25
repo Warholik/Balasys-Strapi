@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "name": "Navbar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar-widget.sections",
+      "required": true
+    }
+  }
+}

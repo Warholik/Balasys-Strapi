@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_navbar_widget_sections",
+  "info": {
+    "name": "Sections",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "navbar_submenus": {
+      "collection": "navbar-submenu"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navbar_links_navbar_links",
+  "info": {
+    "name": "Navbar-links",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

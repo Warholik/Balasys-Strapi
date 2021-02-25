@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_navbar_widget_sections",
+  "info": {
+    "name": "Subsections",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subitems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-links.links"
+    },
+    "highlight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar-highlight.highlighted"
+    }
+  }
+}

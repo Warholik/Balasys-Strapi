@@ -1,18 +1,18 @@
 {
-  "collectionName": "components_items",
+  "collectionName": "components_items_highlighteds",
   "info": {
     "name": "items",
-    "icon": "angle-down",
+    "icon": "arrow-right",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
-    "url": {
-      "type": "string",
+    "description": {
+      "type": "text",
       "required": false
     }
   }
