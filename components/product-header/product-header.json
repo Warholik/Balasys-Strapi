@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_product_header_product_headers",
+  "info": {
+    "name": "Product-header",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_white": {
+      "type": "string",
+      "required": true
+    },
+    "title_color": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "description2": {
+      "type": "text"
+    },
+    "product_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "url_quote": {
+      "type": "string"
+    },
+    "url_download": {
+      "type": "string"
+    }
+  }
+}

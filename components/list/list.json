@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_list_lists",
+  "info": {
+    "name": "List",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

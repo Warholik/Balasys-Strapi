@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pas",
+  "info": {
+    "name": "PAS",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-header.product-header"
+    },
+    "key_features_title": {
+      "type": "string",
+      "required": true
+    },
+    "key_features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "key-feature.key-feature"
+    },
+    "use_cases_title": {
+      "type": "string",
+      "required": true
+    },
+    "use_cases": {
+      "type": "component",
+      "repeatable": true,
+      "component": "use-cases.use-cases"
+    },
+    "benefits_title": {
+      "type": "string",
+      "required": true
+    },
+    "benefit_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benefit-cards.benefit-card"
+    },
+    "benefits_url_quote": {
+      "type": "string",
+      "required": true
+    },
+    "functions_title": {
+      "type": "string",
+      "required": true
+    },
+    "function_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "function-card.function-card"
+    },
+    "functions_url_download": {
+      "type": "string",
+      "required": true
+    },
+    "functions_url_trial": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

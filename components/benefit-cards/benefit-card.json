@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_benefit_card_benefit_cards",
+  "info": {
+    "name": "Benefit-card",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
