@@ -19,6 +19,17 @@
       "type": "component",
       "repeatable": true,
       "component": "footer-widget.a-sd"
+    },
+    "footer_logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
     }
   }
 }

@@ -47,10 +47,6 @@
       "repeatable": true,
       "component": "benefit-cards.benefit-card"
     },
-    "benefits_url_quote": {
-      "type": "string",
-      "required": true
-    },
     "functions_title": {
       "type": "string",
       "required": true
@@ -60,13 +56,15 @@
       "repeatable": true,
       "component": "function-card.function-card"
     },
-    "functions_url_download": {
-      "type": "string",
-      "required": true
+    "benefits_url": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url"
     },
-    "functions_url_trial": {
-      "type": "string",
-      "required": true
+    "functions_url": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
     }
   }
 }

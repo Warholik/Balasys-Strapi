@@ -37,11 +37,10 @@
       "plugin": "upload",
       "required": false
     },
-    "url_quote": {
-      "type": "string"
-    },
-    "url_download": {
-      "type": "string"
+    "url": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
     }
   }
 }

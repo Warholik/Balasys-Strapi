@@ -15,10 +15,6 @@
       "type": "text",
       "required": true
     },
-    "url": {
-      "type": "string",
-      "required": true
-    },
     "big_icon": {
       "model": "file",
       "via": "related",
@@ -29,6 +25,11 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "url": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
     }
   }
 }
