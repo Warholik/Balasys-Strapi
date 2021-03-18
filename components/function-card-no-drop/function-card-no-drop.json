@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_function_card_no_drop_function_card_no_drops",
+  "info": {
+    "name": "Function-card_no-drop",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "list_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    }
+  }
+}

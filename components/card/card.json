@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_card_cards",
+  "info": {
+    "name": "Card",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
