@@ -17,7 +17,7 @@
     },
     "Header": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "product-header.product-header"
     },
     "key_features_title": {
@@ -64,6 +64,11 @@
     "function_button": {
       "type": "component",
       "repeatable": true,
+      "component": "url.url"
+    },
+    "benefits_button": {
+      "type": "component",
+      "repeatable": false,
       "component": "url.url"
     }
   }
