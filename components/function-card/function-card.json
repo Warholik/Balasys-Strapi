@@ -13,7 +13,7 @@
     },
     "description": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "avatar": {
       "model": "file",
@@ -24,7 +24,7 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "List": {
       "type": "component",

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/zorp-gpls",
+      "handler": "zorp-gpl.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zorp-gpls/count",
+      "handler": "zorp-gpl.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zorp-gpls/:id",
+      "handler": "zorp-gpl.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/zorp-gpls",
+      "handler": "zorp-gpl.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/zorp-gpls/:id",
+      "handler": "zorp-gpl.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/zorp-gpls/:id",
+      "handler": "zorp-gpl.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

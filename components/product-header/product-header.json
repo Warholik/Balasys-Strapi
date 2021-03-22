@@ -41,6 +41,9 @@
       "type": "component",
       "repeatable": true,
       "component": "url.url"
+    },
+    "subtitle2": {
+      "type": "string"
     }
   }
 }

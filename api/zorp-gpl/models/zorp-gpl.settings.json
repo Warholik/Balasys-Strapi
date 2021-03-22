@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zorp_gpls",
+  "info": {
+    "name": "Zorp-gpl"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-header.product-header"
+    },
+    "key_features_title": {
+      "type": "string",
+      "private": false,
+      "required": true
+    },
+    "key_features_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "key-feature.key-feature"
+    },
+    "benefits_title": {
+      "type": "string",
+      "required": true
+    },
+    "benefits_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benefit-cards.benefit-card"
+    },
+    "benefits_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url"
+    },
+    "functions_title": {
+      "type": "string",
+      "required": true
+    },
+    "function_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "function-card.function-card"
+    },
+    "function_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}
