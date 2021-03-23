@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "zorp_malwares",
+  "collectionName": "one_identity_identity_managers",
   "info": {
-    "name": "Zorp-malware",
-    "description": ""
+    "name": "One-Identity-Identity-Manager"
   },
   "options": {
     "increments": true,
@@ -11,11 +10,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "lang": {
-      "type": "string",
-      "required": true
-    },
-    "Header": {
+    "product": {
       "type": "component",
       "repeatable": false,
       "component": "product-header.product-header"
@@ -24,7 +19,7 @@
       "type": "string",
       "required": true
     },
-    "Key_features_card": {
+    "key_features": {
       "type": "component",
       "repeatable": true,
       "component": "key-feature.key-feature"
@@ -36,23 +31,23 @@
     "benefits_card": {
       "type": "component",
       "repeatable": true,
-      "component": "benefit-cards.benefit-card"
+      "component": "card.card"
     },
     "benefits_button": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "url.url"
     },
-    "function_title": {
+    "functions_title": {
       "type": "string",
       "required": true
     },
-    "function_card": {
+    "functions_card": {
       "type": "component",
       "repeatable": true,
       "component": "function-card.function-card"
     },
-    "function_button": {
+    "functions_button": {
       "type": "component",
       "repeatable": true,
       "component": "url.url"

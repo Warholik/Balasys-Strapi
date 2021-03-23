@@ -59,7 +59,7 @@
     "function_card": {
       "type": "component",
       "repeatable": true,
-      "component": "function-card-no-drop.function-card-no-drop"
+      "component": "function-card.function-card"
     },
     "function_button": {
       "type": "component",
