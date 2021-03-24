@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/one-identity-safeguards",
+      "handler": "one-identity-safeguard.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/one-identity-safeguards/count",
+      "handler": "one-identity-safeguard.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/one-identity-safeguards/:id",
+      "handler": "one-identity-safeguard.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/one-identity-safeguards",
+      "handler": "one-identity-safeguard.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/one-identity-safeguards/:id",
+      "handler": "one-identity-safeguard.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/one-identity-safeguards/:id",
+      "handler": "one-identity-safeguard.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

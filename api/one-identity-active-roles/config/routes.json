@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/one-identity-active-roles",
+      "handler": "one-identity-active-roles.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/one-identity-active-roles/count",
+      "handler": "one-identity-active-roles.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/one-identity-active-roles/:id",
+      "handler": "one-identity-active-roles.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/one-identity-active-roles",
+      "handler": "one-identity-active-roles.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/one-identity-active-roles/:id",
+      "handler": "one-identity-active-roles.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/one-identity-active-roles/:id",
+      "handler": "one-identity-active-roles.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

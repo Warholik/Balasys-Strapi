@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "one_identity_safeguards",
+  "info": {
+    "name": "One-Identity-Safeguard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-header.product-header"
+    },
+    "key_features_title": {
+      "type": "string",
+      "required": true
+    },
+    "key_features_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "key-feature.key-feature"
+    },
+    "product_family_title": {
+      "type": "string",
+      "required": true
+    },
+    "product_family_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "product_family_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "benefits_title": {
+      "type": "string",
+      "required": true
+    },
+    "benefits_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "functions_title": {
+      "type": "string",
+      "required": true
+    },
+    "functions_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "function-card.function-card"
+    },
+    "functions_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}
