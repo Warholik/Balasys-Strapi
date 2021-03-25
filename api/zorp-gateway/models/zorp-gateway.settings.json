@@ -68,7 +68,7 @@
     },
     "benefits_button": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "url.url"
     }
   }

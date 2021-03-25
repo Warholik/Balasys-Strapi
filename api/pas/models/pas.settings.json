@@ -58,7 +58,7 @@
     },
     "benefits_url": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "url.url"
     },
     "functions_url": {
