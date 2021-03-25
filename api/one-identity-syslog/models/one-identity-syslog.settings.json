@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "one_identity_syslogs",
+  "info": {
+    "name": "One-Identity-Syslog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-header.product-header"
+    },
+    "key_features_title": {
+      "type": "string",
+      "required": true
+    },
+    "key_features_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "key-feature.key-feature"
+    },
+    "use_cases_title": {
+      "type": "string",
+      "required": true
+    },
+    "use_cases_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benefit-cards.benefit-card"
+    },
+    "use_cases_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "features_title": {
+      "type": "string",
+      "required": true
+    },
+    "features_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "function-card.function-card"
+    },
+    "features_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "product_premium": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-header.product-header"
+    },
+    "features_premium_title": {
+      "type": "string",
+      "required": true
+    },
+    "features_card_premium": {
+      "type": "component",
+      "repeatable": true,
+      "component": "function-card.function-card"
+    },
+    "features_button_premium": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}

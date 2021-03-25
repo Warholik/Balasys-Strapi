@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/one-identity-syslogs",
+      "handler": "one-identity-syslog.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/one-identity-syslogs/count",
+      "handler": "one-identity-syslog.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/one-identity-syslogs/:id",
+      "handler": "one-identity-syslog.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/one-identity-syslogs",
+      "handler": "one-identity-syslog.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/one-identity-syslogs/:id",
+      "handler": "one-identity-syslog.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/one-identity-syslogs/:id",
+      "handler": "one-identity-syslog.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
