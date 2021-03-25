@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_solutions_solutions",
+  "info": {
+    "name": "Solutions",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle1": {
+      "type": "string"
+    }
+  }
+}
