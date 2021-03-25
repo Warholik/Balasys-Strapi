@@ -2,7 +2,8 @@
   "collectionName": "components_product_header_quest_headers",
   "info": {
     "name": "Quest-header",
-    "icon": "arrows-alt"
+    "icon": "arrows-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -35,7 +36,7 @@
       "type": "text"
     },
     "description2": {
-      "type": "string"
+      "type": "text"
     },
     "benefits_title": {
       "type": "string"
