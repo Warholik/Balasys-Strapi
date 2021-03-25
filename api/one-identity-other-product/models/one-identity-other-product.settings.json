@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "one_identity_other_products",
+  "info": {
+    "name": "One-Identity-Other-Product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "other-products.other-products"
+    },
+    "lang": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_other_products_other_products",
+  "info": {
+    "name": "Other-products",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_white": {
+      "type": "string"
+    },
+    "title_color": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benefit-cards.benefit-card"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "description2": {
+      "type": "text"
+    }
+  }
+}
