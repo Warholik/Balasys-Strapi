@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_product_header_quest_headers",
+  "info": {
+    "name": "Quest-header",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title_white": {
+      "type": "string"
+    },
+    "title_color": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "string"
+    },
+    "benefits_title": {
+      "type": "string"
+    },
+    "benefits_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.benefit-card"
+    },
+    "benefits_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}

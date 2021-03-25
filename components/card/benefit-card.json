@@ -2,7 +2,8 @@
   "collectionName": "components_benefit_card_benefit_cards",
   "info": {
     "name": "Benefit-card",
-    "icon": "book"
+    "icon": "book",
+    "description": ""
   },
   "options": {},
   "attributes": {

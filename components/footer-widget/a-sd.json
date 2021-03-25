@@ -14,7 +14,7 @@
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "footer-links.links"
+      "component": "footer-widget.links"
     }
   }
 }

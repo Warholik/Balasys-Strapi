@@ -26,7 +26,7 @@
     "key_features_card": {
       "type": "component",
       "repeatable": true,
-      "component": "key-feature.key-feature"
+      "component": "card.key-feature"
     },
     "use_cases_title": {
       "type": "string",
@@ -35,7 +35,7 @@
     "use_cases_cards": {
       "type": "component",
       "repeatable": true,
-      "component": "benefit-cards.benefit-card"
+      "component": "card.benefit-card"
     },
     "use_cases_button": {
       "type": "component",
@@ -49,7 +49,7 @@
     "features_cards": {
       "type": "component",
       "repeatable": true,
-      "component": "function-card.function-card"
+      "component": "card.function-card"
     },
     "features_button": {
       "type": "component",
@@ -68,7 +68,7 @@
     "features_card_premium": {
       "type": "component",
       "repeatable": true,
-      "component": "function-card.function-card"
+      "component": "card.function-card"
     },
     "features_button_premium": {
       "type": "component",

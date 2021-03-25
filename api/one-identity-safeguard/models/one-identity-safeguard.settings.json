@@ -27,7 +27,7 @@
     "key_features_card": {
       "type": "component",
       "repeatable": true,
-      "component": "key-feature.key-feature"
+      "component": "card.key-feature"
     },
     "product_family_title": {
       "type": "string",
@@ -59,7 +59,7 @@
     "features_card": {
       "type": "component",
       "repeatable": true,
-      "component": "function-card.function-card"
+      "component": "card.function-card"
     },
     "features_button": {
       "type": "component",

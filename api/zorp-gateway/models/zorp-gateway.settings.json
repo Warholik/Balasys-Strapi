@@ -27,7 +27,7 @@
     "Key_features": {
       "type": "component",
       "repeatable": true,
-      "component": "key-feature.key-feature"
+      "component": "card.key-feature"
     },
     "Use_cases_title": {
       "type": "string",
@@ -50,7 +50,7 @@
     "benefit_card": {
       "type": "component",
       "repeatable": true,
-      "component": "benefit-cards.benefit-card"
+      "component": "card.benefit-card"
     },
     "function_title": {
       "type": "string",
@@ -59,7 +59,7 @@
     "function_card": {
       "type": "component",
       "repeatable": true,
-      "component": "function-card.function-card"
+      "component": "card.function-card"
     },
     "function_button": {
       "type": "component",

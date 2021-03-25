@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quest-products",
+      "handler": "quest-product.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quest-products/count",
+      "handler": "quest-product.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quest-products/:id",
+      "handler": "quest-product.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/quest-products",
+      "handler": "quest-product.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quest-products/:id",
+      "handler": "quest-product.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quest-products/:id",
+      "handler": "quest-product.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

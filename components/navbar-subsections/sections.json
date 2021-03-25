@@ -14,12 +14,12 @@
     "subitems": {
       "type": "component",
       "repeatable": true,
-      "component": "footer-links.links"
+      "component": "footer-widget.links"
     },
     "highlight": {
       "type": "component",
       "repeatable": false,
-      "component": "navbar-highlight.highlighted"
+      "component": "navbar-widget.highlighted"
     },
     "submenu_logo": {
       "model": "file",

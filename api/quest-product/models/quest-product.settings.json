@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "one_identity_other_products",
+  "collectionName": "quest_products",
   "info": {
-    "name": "One-Identity-Other-Product",
+    "name": "Quest-Products",
     "description": ""
   },
   "options": {
@@ -14,7 +14,7 @@
     "product": {
       "type": "component",
       "repeatable": true,
-      "component": "product-header.other-products"
+      "component": "product-header.quest-header"
     },
     "lang": {
       "type": "string",

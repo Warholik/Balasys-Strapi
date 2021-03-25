@@ -22,7 +22,7 @@
     "card": {
       "type": "component",
       "repeatable": true,
-      "component": "benefit-cards.benefit-card"
+      "component": "card.benefit-card"
     },
     "buttons": {
       "type": "component",
