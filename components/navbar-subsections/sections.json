@@ -19,7 +19,7 @@
     "highlight": {
       "type": "component",
       "repeatable": false,
-      "component": "navbar-widget.highlighted"
+      "component": "navbar-subsections.highlighted"
     },
     "submenu_logo": {
       "model": "file",

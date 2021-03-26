@@ -2,15 +2,18 @@
   "collectionName": "components_solutions_solutions",
   "info": {
     "name": "Solutions",
-    "icon": "baby-carriage"
+    "icon": "baby-carriage",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "subtitle1": {
-      "type": "string"
+    "solution_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.solution-card"
     }
   }
 }

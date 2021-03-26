@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/network-securities",
+      "handler": "network-security.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/network-securities/count",
+      "handler": "network-security.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/network-securities/:id",
+      "handler": "network-security.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/network-securities",
+      "handler": "network-security.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/network-securities/:id",
+      "handler": "network-security.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/network-securities/:id",
+      "handler": "network-security.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
