@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/io-t-biztonsags",
-      "handler": "io-t-biztonsag.find",
+      "path": "/iot-securities",
+      "handler": "iot-security.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/io-t-biztonsags/count",
-      "handler": "io-t-biztonsag.count",
+      "path": "/iot-securities/count",
+      "handler": "iot-security.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/io-t-biztonsags/:id",
-      "handler": "io-t-biztonsag.findOne",
+      "path": "/iot-securities/:id",
+      "handler": "iot-security.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/io-t-biztonsags",
-      "handler": "io-t-biztonsag.create",
+      "path": "/iot-securities",
+      "handler": "iot-security.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/io-t-biztonsags/:id",
-      "handler": "io-t-biztonsag.update",
+      "path": "/iot-securities/:id",
+      "handler": "iot-security.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/io-t-biztonsags/:id",
-      "handler": "io-t-biztonsag.delete",
+      "path": "/iot-securities/:id",
+      "handler": "iot-security.delete",
       "config": {
         "policies": []
       }

@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "privileged-access",
+  "collectionName": "privileged-accesses",
   "info": {
     "name": "Privileged-Access"
   },

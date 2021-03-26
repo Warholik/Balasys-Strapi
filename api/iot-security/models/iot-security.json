@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "io_t_biztonsags",
+  "collectionName": "iot-securities",
   "info": {
-    "name": "IoT-Biztonság"
+    "name": "IoT-Security",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,9 +20,6 @@
     },
     "subtitle": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     },
     "intro_button": {
       "type": "component",
@@ -47,6 +45,11 @@
       "type": "component",
       "repeatable": true,
       "component": "url.url"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.description"
     }
   }
 }
