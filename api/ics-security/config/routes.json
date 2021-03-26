@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ics-securities",
+      "handler": "ics-security.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ics-securities/count",
+      "handler": "ics-security.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ics-securities/:id",
+      "handler": "ics-security.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ics-securities",
+      "handler": "ics-security.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ics-securities/:id",
+      "handler": "ics-security.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ics-securities/:id",
+      "handler": "ics-security.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

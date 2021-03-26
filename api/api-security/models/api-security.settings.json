@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "api_securities",
+  "info": {
+    "name": "API-Security"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "challenges": {
+      "type": "component",
+      "repeatable": false,
+      "component": "solutions.solutions"
+    },
+    "solutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "solutions.solutions"
+    },
+    "solutions_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "benefits_title": {
+      "type": "string"
+    },
+    "benefits_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.benefit-card"
+    },
+    "benefits_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}

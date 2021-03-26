@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/log-managements",
+      "handler": "log-management.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/log-managements/count",
+      "handler": "log-management.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/log-managements/:id",
+      "handler": "log-management.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/log-managements",
+      "handler": "log-management.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/log-managements/:id",
+      "handler": "log-management.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/log-managements/:id",
+      "handler": "log-management.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

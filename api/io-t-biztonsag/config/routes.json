@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/io-t-biztonsags",
+      "handler": "io-t-biztonsag.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/io-t-biztonsags/count",
+      "handler": "io-t-biztonsag.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/io-t-biztonsags/:id",
+      "handler": "io-t-biztonsag.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/io-t-biztonsags",
+      "handler": "io-t-biztonsag.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/io-t-biztonsags/:id",
+      "handler": "io-t-biztonsag.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/io-t-biztonsags/:id",
+      "handler": "io-t-biztonsag.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

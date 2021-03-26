@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "io_t_biztonsags",
+  "info": {
+    "name": "IoT-Biztonság"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "intro_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "solution1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "solutions.solutions"
+    },
+    "solution1_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "solution2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "solutions.solutions"
+    },
+    "solution2_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}

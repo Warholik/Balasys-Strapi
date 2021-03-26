@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/privileged-access",
+      "handler": "privileged-access.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/privileged-access/count",
+      "handler": "privileged-access.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/privileged-access/:id",
+      "handler": "privileged-access.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/privileged-access",
+      "handler": "privileged-access.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/privileged-access/:id",
+      "handler": "privileged-access.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/privileged-access/:id",
+      "handler": "privileged-access.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

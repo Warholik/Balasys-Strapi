@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/identity-governances",
+      "handler": "identity-governance.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/identity-governances/count",
+      "handler": "identity-governance.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/identity-governances/:id",
+      "handler": "identity-governance.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/identity-governances",
+      "handler": "identity-governance.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/identity-governances/:id",
+      "handler": "identity-governance.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/identity-governances/:id",
+      "handler": "identity-governance.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
