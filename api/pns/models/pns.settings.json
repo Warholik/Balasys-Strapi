@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pns",
+  "info": {
+    "name": "PNS"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-header.product-header"
+    },
+    "key_features_title": {
+      "type": "string"
+    },
+    "key_features_subtitle": {
+      "type": "string"
+    },
+    "key_features_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.key-feature"
+    },
+    "use_cases_title": {
+      "type": "string"
+    },
+    "use_cases": {
+      "type": "component",
+      "repeatable": true,
+      "component": "use-cases.use-cases"
+    },
+    "benefits_title": {
+      "type": "string"
+    },
+    "benefits_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.benefit-card"
+    },
+    "benefits_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "features_title": {
+      "type": "string"
+    },
+    "features_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.function-card"
+    },
+    "features_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}
