@@ -14,7 +14,7 @@
     "product": {
       "type": "component",
       "repeatable": true,
-      "component": "product-header.quest-header"
+      "component": "header.quest-header"
     },
     "lang": {
       "type": "string",

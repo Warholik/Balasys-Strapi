@@ -14,7 +14,7 @@
     "product": {
       "type": "component",
       "repeatable": true,
-      "component": "product-header.other-products"
+      "component": "header.other-products"
     },
     "lang": {
       "type": "string",

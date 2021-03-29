@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "Services",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "consultancy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.services-header"
+    },
+    "implementation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.services-header-icon"
+    },
+    "technical": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.services-header-tech"
+    },
+    "competence": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.services-header"
+    }
+  }
+}

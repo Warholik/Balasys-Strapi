@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_card_training_cards",
+  "info": {
+    "name": "training-card",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url"
+    }
+  }
+}

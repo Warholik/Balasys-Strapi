@@ -14,7 +14,7 @@
     "product": {
       "type": "component",
       "repeatable": false,
-      "component": "product-header.product-header"
+      "component": "header.product-header"
     },
     "key_features_title": {
       "type": "string",

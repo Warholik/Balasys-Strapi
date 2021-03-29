@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trainings",
+  "info": {
+    "name": "Training"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "description_card": {
+      "type": "text"
+    },
+    "section_balasys_title": {
+      "type": "string"
+    },
+    "balasys_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.training-card"
+    },
+    "section_one_identity": {
+      "type": "string"
+    },
+    "one_identity_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.training-card"
+    }
+  }
+}

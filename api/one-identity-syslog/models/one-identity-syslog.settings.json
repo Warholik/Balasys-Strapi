@@ -17,7 +17,7 @@
     "product": {
       "type": "component",
       "repeatable": false,
-      "component": "product-header.product-header"
+      "component": "header.product-header"
     },
     "key_features_title": {
       "type": "string",
@@ -59,7 +59,7 @@
     "product_premium": {
       "type": "component",
       "repeatable": false,
-      "component": "product-header.product-header"
+      "component": "header.product-header"
     },
     "features_premium_title": {
       "type": "string",
