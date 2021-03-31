@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_balasys",
+  "info": {
+    "name": "About-Balasys",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.about-header"
+    },
+    "gallery_title": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.img-list"
+    }
+  }
+}

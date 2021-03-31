@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners",
+  "info": {
+    "name": "Partners",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.partners-header"
+    },
+    "sections_title": {
+      "type": "string"
+    },
+    "diamond": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.partners-section"
+    },
+    "gold": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.partners-section"
+    },
+    "silver": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.partners-section"
+    },
+    "program_title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.benefit-card"
+    },
+    "cards_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}

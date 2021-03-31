@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "careers",
+  "info": {
+    "name": "Career"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "head": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.product-header"
+    }
+  }
+}

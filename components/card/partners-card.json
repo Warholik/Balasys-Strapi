@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_card_partners_cards",
+  "info": {
+    "name": "Partners-card",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    }
+  }
+}

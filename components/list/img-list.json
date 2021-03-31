@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_list_img_lists",
+  "info": {
+    "name": "img-list",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

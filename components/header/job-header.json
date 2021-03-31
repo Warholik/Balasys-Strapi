@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_header_job_headers",
+  "info": {
+    "name": "Job-header",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title_white": {
+      "type": "string"
+    },
+    "title_color": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

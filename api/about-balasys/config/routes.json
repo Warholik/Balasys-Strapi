@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-balasys",
+      "handler": "about-balasys.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-balasys/count",
+      "handler": "about-balasys.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-balasys/:id",
+      "handler": "about-balasys.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/about-balasys",
+      "handler": "about-balasys.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-balasys/:id",
+      "handler": "about-balasys.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-balasys/:id",
+      "handler": "about-balasys.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
