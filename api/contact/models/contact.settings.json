@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "careers",
+  "collectionName": "contacts",
   "info": {
-    "name": "Career",
+    "name": "Contact",
     "description": ""
   },
   "options": {
@@ -11,15 +11,19 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "head": {
-      "type": "component",
-      "repeatable": false,
-      "component": "header.product-header"
+    "lang": {
+      "type": "string",
+      "required": true
     },
-    "available_jobs": {
+    "region_card": {
       "type": "component",
       "repeatable": true,
-      "component": "url.url"
+      "component": "card.contact-card"
+    },
+    "balasys_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.contact-list"
     }
   }
 }

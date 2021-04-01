@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_list_contact_lists",
+  "info": {
+    "name": "Contact-list",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
