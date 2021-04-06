@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_card_downloads",
+  "info": {
+    "name": "Downloads",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lang": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    },
+    "download": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
