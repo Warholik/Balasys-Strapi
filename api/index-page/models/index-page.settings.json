@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "index_pages",
+  "info": {
+    "name": "Index-page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "solutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.index-header"
+    },
+    "title_products": {
+      "type": "string"
+    },
+    "subtitle_products": {
+      "type": "string"
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.index-products"
+    },
+    "title_solutions": {
+      "type": "string"
+    },
+    "solutions_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.index-solution"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.index-header"
+    }
+  }
+}

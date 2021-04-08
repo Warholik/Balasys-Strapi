@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_header_index_headers",
+  "info": {
+    "name": "Index-header",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title_white": {
+      "type": "string"
+    },
+    "title_color": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url"
+    }
+  }
+}
