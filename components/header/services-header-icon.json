@@ -2,17 +2,13 @@
   "collectionName": "components_product_header_services_header_icons",
   "info": {
     "name": "services-header-icon",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "list.description"
     },
     "button": {
       "type": "component",
@@ -29,6 +25,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

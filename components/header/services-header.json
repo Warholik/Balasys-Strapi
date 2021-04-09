@@ -21,9 +21,7 @@
       "component": "card.benefit-card-small"
     },
     "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "list.description"
+      "type": "text"
     }
   }
 }

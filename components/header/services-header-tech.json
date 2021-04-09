@@ -10,11 +10,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "list.description"
-    },
     "subtitle_support": {
       "type": "string"
     },
@@ -39,6 +34,9 @@
       "type": "component",
       "repeatable": true,
       "component": "card.benefit-card-small"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

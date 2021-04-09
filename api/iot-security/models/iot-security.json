@@ -47,9 +47,7 @@
       "component": "url.url"
     },
     "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "list.description"
+      "type": "text"
     }
   }
 }

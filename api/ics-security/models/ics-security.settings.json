@@ -31,15 +31,13 @@
       "repeatable": false,
       "component": "solutions.solutions"
     },
-    "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "list.description"
-    },
     "solutions_button": {
       "type": "component",
       "repeatable": true,
       "component": "url.url"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
