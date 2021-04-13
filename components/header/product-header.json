@@ -23,9 +23,6 @@
       "type": "text",
       "required": true
     },
-    "description2": {
-      "type": "text"
-    },
     "product_icon": {
       "model": "file",
       "via": "related",
@@ -39,11 +36,13 @@
     },
     "url": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
     },
-    "subtitle2": {
-      "type": "string"
+    "url_download": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url-download"
     }
   }
 }

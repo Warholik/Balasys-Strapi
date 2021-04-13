@@ -18,7 +18,7 @@
     },
     "button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
     },
     "avatar": {
@@ -48,8 +48,13 @@
     },
     "benefits_button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
+    },
+    "button_download": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url-download"
     }
   }
 }

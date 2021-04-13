@@ -2,17 +2,13 @@
   "collectionName": "components_header_about_headers",
   "info": {
     "name": "About-header",
-    "icon": "at"
+    "icon": "at",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "list.description"
     },
     "button": {
       "type": "component",
@@ -23,6 +19,9 @@
       "type": "component",
       "repeatable": true,
       "component": "card.benefit-card-small"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

@@ -28,9 +28,6 @@
       "type": "component",
       "repeatable": true,
       "component": "url.url"
-    },
-    "description2": {
-      "type": "text"
     }
   }
 }

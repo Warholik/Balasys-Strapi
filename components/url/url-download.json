@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_url_url_downloads",
+  "info": {
+    "name": "url_download",
+    "icon": "bone"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
