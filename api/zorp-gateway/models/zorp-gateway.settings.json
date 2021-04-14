@@ -38,11 +38,6 @@
       "repeatable": true,
       "component": "card.card"
     },
-    "Use_cases_button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "url.url"
-    },
     "benefits_title": {
       "type": "string",
       "required": true
@@ -63,13 +58,23 @@
     },
     "function_button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
     },
     "benefits_button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
+    },
+    "use_cases_download": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url-download"
+    },
+    "function_button_download": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url-download"
     }
   }
 }

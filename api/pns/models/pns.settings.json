@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "pns",
   "info": {
-    "name": "PNS"
+    "name": "PNS",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -48,7 +49,7 @@
     },
     "benefits_button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
     },
     "features_title": {
@@ -61,8 +62,13 @@
     },
     "features_button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
+    },
+    "features_button_download": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url-download"
     }
   }
 }

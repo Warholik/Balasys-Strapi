@@ -26,9 +26,14 @@
       "plugin": "upload",
       "required": true
     },
-    "url": {
+    "button_download": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
+      "component": "url.url-download"
+    },
+    "button_url": {
+      "type": "component",
+      "repeatable": false,
       "component": "url.url"
     }
   }

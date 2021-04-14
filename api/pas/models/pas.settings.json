@@ -58,13 +58,18 @@
     },
     "benefits_url": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
     },
     "functions_url": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
+    },
+    "functions_download": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url-download"
     }
   }
 }
