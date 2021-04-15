@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "privileged-accesses",
   "info": {
-    "name": "Privileged-Access"
+    "name": "Privileged-Access",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -41,7 +42,7 @@
     },
     "benefits_button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
     }
   }

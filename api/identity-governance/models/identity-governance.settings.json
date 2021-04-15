@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "identity-governances",
   "info": {
-    "name": "Identity-Governance"
+    "name": "Identity-Governance",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -41,7 +42,7 @@
     },
     "benefits_button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "url.url"
     }
   }
