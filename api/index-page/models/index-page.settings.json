@@ -43,6 +43,11 @@
       "type": "component",
       "repeatable": false,
       "component": "header.index-header"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

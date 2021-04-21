@@ -56,6 +56,11 @@
     "lang": {
       "type": "string",
       "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

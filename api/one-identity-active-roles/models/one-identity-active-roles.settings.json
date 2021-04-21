@@ -61,6 +61,11 @@
       "type": "component",
       "repeatable": false,
       "component": "url.url-download"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
