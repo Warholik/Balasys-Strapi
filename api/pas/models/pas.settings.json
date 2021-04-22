@@ -13,7 +13,8 @@
   "attributes": {
     "lang": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "product": {
       "type": "component",

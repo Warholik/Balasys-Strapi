@@ -27,6 +27,11 @@
       "type": "component",
       "repeatable": true,
       "component": "list.img-list"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

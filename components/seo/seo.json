@@ -13,11 +13,11 @@
     },
     "description": {
       "type": "text",
-      "required": false
+      "required": true
     },
     "keywords": {
       "type": "text",
-      "required": false
+      "required": true
     },
     "url": {
       "type": "string",
@@ -30,7 +30,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }

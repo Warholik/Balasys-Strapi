@@ -38,6 +38,11 @@
     },
     "description": {
       "type": "text"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

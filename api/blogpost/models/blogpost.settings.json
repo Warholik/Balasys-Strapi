@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs",
+  "collectionName": "blogposts",
   "info": {
-    "name": "Blog",
+    "name": "BlogPost",
     "description": ""
   },
   "options": {
@@ -45,6 +45,11 @@
     "author": {
       "type": "string",
       "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

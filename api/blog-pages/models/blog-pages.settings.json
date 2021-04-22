@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "videos",
+  "collectionName": "blog_pages",
   "info": {
-    "name": "Video",
-    "description": ""
+    "name": "BlogPages"
   },
   "options": {
     "increments": true,
@@ -11,18 +10,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "video": {
-      "type": "component",
-      "repeatable": true,
-      "component": "url.url"
-    },
     "lang": {
       "type": "string",
-      "unique": true,
-      "required": true
-    },
-    "title": {
-      "type": "string"
+      "required": true,
+      "unique": true
     },
     "SEO": {
       "type": "component",

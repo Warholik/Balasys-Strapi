@@ -34,6 +34,11 @@
       "type": "component",
       "repeatable": false,
       "component": "header.services-header"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
