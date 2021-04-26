@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_us_forms",
+  "info": {
+    "name": "Contact-Us-Form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.form-basic"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

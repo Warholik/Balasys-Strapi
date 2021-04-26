@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_form_form_companies",
+  "info": {
+    "name": "Form-company",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "boolean",
+      "required": true
+    },
+    "job_title": {
+      "type": "boolean",
+      "required": true
+    },
+    "company_address": {
+      "type": "boolean",
+      "required": true
+    },
+    "contact_person_name": {
+      "type": "boolean",
+      "required": true
+    },
+    "contact_person_email": {
+      "type": "boolean",
+      "required": true
+    },
+    "contact_person_phone": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

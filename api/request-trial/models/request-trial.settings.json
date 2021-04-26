@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "request_trials",
+  "info": {
+    "name": "Request-Trial",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.form-basic"
+    },
+    "title": {
+      "type": "string"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

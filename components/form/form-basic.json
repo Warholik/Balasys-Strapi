@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_form_form_basics",
+  "info": {
+    "name": "Form-basic",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "first_name": {
+      "type": "boolean",
+      "required": true
+    },
+    "last_name": {
+      "type": "boolean",
+      "required": true
+    },
+    "phone": {
+      "type": "boolean",
+      "required": true
+    },
+    "email": {
+      "type": "boolean",
+      "required": true
+    },
+    "country": {
+      "type": "boolean",
+      "required": true
+    },
+    "help_dropdown": {
+      "type": "boolean",
+      "required": true
+    },
+    "preffered_dropdown": {
+      "type": "boolean",
+      "required": true
+    },
+    "message": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

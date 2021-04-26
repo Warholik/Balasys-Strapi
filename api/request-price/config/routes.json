@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/request-prices",
+      "handler": "request-price.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/request-prices/count",
+      "handler": "request-price.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/request-prices/:id",
+      "handler": "request-price.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/request-prices",
+      "handler": "request-price.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/request-prices/:id",
+      "handler": "request-price.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/request-prices/:id",
+      "handler": "request-price.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
