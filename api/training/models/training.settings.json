@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "trainings",
   "info": {
-    "name": "Training"
+    "name": "Training",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,13 +14,7 @@
     "title": {
       "type": "string"
     },
-    "subtitle": {
-      "type": "string"
-    },
     "description": {
-      "type": "text"
-    },
-    "description_card": {
       "type": "text"
     },
     "section_balasys_title": {
@@ -37,6 +32,12 @@
       "type": "component",
       "repeatable": true,
       "component": "card.training-card"
+    },
+    "section_balasys_description": {
+      "type": "text"
+    },
+    "section_one_identity_description": {
+      "type": "text"
     }
   }
 }

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/training-subpages",
+      "handler": "training-subpages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/training-subpages/count",
+      "handler": "training-subpages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/training-subpages/:id",
+      "handler": "training-subpages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/training-subpages",
+      "handler": "training-subpages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/training-subpages/:id",
+      "handler": "training-subpages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/training-subpages/:id",
+      "handler": "training-subpages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

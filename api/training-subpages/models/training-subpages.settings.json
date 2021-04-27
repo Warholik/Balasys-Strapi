@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_subpages",
+  "info": {
+    "name": "TrainingSubpages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.form-company"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

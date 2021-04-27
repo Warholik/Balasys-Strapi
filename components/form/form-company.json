@@ -2,7 +2,8 @@
   "collectionName": "components_form_form_companies",
   "info": {
     "name": "Form-company",
-    "icon": "asterisk"
+    "icon": "asterisk",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -27,6 +28,38 @@
       "required": true
     },
     "contact_person_phone": {
+      "type": "boolean",
+      "required": true
+    },
+    "first_name": {
+      "type": "boolean",
+      "required": true
+    },
+    "last_name": {
+      "type": "boolean",
+      "required": true
+    },
+    "phone": {
+      "type": "boolean",
+      "required": true
+    },
+    "email": {
+      "type": "boolean",
+      "required": true
+    },
+    "country": {
+      "type": "boolean",
+      "required": true
+    },
+    "help_dropdown": {
+      "type": "boolean",
+      "required": true
+    },
+    "preffered_dropdown": {
+      "type": "boolean",
+      "required": true
+    },
+    "message": {
       "type": "boolean",
       "required": true
     }
