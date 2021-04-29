@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_forms",
+  "info": {
+    "name": "Training-form",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.form-company"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
