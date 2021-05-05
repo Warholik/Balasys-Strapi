@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "contact_us_forms",
   "info": {
-    "name": "Contact-Us-Form"
+    "name": "Contact-Us-Form",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -26,10 +27,11 @@
       "repeatable": false,
       "component": "form.form-basic"
     },
-    "SEO": {
+    "Seo_contact_us": {
       "type": "component",
       "repeatable": false,
-      "component": "seo.seo"
+      "component": "seo.seo",
+      "required": true
     }
   }
 }
