@@ -30,6 +30,11 @@
       "type": "component",
       "repeatable": false,
       "component": "solutions.who-are-we"
+    },
+    "Colleagues": {
+      "type": "component",
+      "repeatable": false,
+      "component": "solutions.colleagues-section"
     }
   }
 }
