@@ -23,15 +23,14 @@
       "type": "string",
       "required": true
     },
-    "preview": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     }
   }
 }

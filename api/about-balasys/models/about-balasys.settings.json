@@ -23,20 +23,15 @@
     "gallery_title": {
       "type": "string"
     },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.img-list"
+    },
     "SEO": {
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
-    },
-    "gallery_images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
     }
   }
 }

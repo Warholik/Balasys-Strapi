@@ -19,13 +19,12 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": false
     },
     "description": {
       "type": "text"
