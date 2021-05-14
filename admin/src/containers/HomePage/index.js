@@ -1,8 +1,3 @@
-/*
- *
- * Custom HomePage
- *
- */
 /* eslint-disable */
 import React, {memo} from 'react';
 import axios from "axios"
@@ -13,10 +8,9 @@ import PageTitle from '../../components/PageTitle';
 import {P, ALink} from './components';
 import Button from '../../components/FullWidthButton';
 
-
 const HomePage = () => {
 
-  const token = process.env.BEARER_TOKEN;
+  const token = CUSTOM_VARIABLES.token;
   const firstname = get(auth.getUserInfo(), 'firstname', '');
   //const lastname = get(auth.getUserInfo(), 'lastname', '');
   //const date = new Date().getFullYear() + "-" + (new Date().getMonth()+1) + "-" + new Date().getDate() + " " + new Date().getHours() + ":" + new Date().getMinutes();
@@ -26,18 +20,24 @@ const HomePage = () => {
       {},
       {
         headers: {
-          Authorization: 'Bearer' + token
+          Authorization: 'Bearer ' + token,
+          'Access-Control-Allow-Origin': '*',
         }
       })
-      .then(function (response) {
-        if (response.status === 200) {
+      .then(result => {
+        if (result.status === 200) {
           strapi.notification.toggle({
             type: 'success',
             message: "Sikeres release.",
           });
+        } else {
+          strapi.notification.toggle({
+            type: 'warning',
+            message: "Sikertelen release.",
+          });
         }
       })
-      .catch(function (error) {
+      .catch(e => {
         strapi.notification.toggle({
           type: 'warning',
           message: "Sikertelen release.",
