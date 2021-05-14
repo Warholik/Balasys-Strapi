@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "jobs",
   "info": {
-    "name": "Job",
-    "description": ""
+    "name": "Job"
   },
   "options": {
     "increments": true,
@@ -27,11 +26,6 @@
     },
     "content": {
       "type": "richtext"
-    },
-    "SEO": {
-      "type": "component",
-      "repeatable": false,
-      "component": "seo.seo"
     }
   }
 }

@@ -11,6 +11,11 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "head": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.product-header"
+    },
     "lang": {
       "type": "string",
       "required": true,
@@ -20,21 +25,6 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
-    },
-    "product": {
-      "type": "component",
-      "repeatable": false,
-      "component": "header.career-header"
-    },
-    "Who_are_we": {
-      "type": "component",
-      "repeatable": false,
-      "component": "solutions.who-are-we"
-    },
-    "Colleagues": {
-      "type": "component",
-      "repeatable": false,
-      "component": "solutions.colleagues-section"
     }
   }
 }
