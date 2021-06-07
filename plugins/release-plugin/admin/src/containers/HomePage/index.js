@@ -57,11 +57,11 @@ const HomePage = () => {
           borderRadius: "3px",
           background: "white"
         }}>
-          <h1 style={{margin: "0 0 20px 0"}}>Utolsó release:</h1>
-          <h2>Mikor?</h2>
-          <Text>...</Text>
-          <h2>Ki által?</h2>
-          <Text>...</Text>
+          <h1 style={{margin: "0 0 20px 0"}}>Release állapot:</h1>
+          <h2>Teszt szerver:</h2>
+          <img src="https://teamcity.balasys/app/rest/builds/buildType:BalaSysWebsite_Builds_WebsiteGeneration_Develop/statusIcon" alt="teszt"/>
+          <h2>Élő site:</h2>
+          <img src="https://teamcity.balasys/app/rest/builds/buildType:BalaSysWebsite_Builds_WebsiteGenerationMaster/statusIcon" alt="balasys.hu"/>
         </div>
         <div/>
       </div>
