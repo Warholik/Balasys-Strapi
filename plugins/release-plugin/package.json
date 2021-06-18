@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "release-plugin",
+    "name": "Release-Plugin",
     "icon": "plug",
-    "description": "Description of release-plugin plugin."
+    "description": "A website release pluginja."
   },
   "dependencies": {},
   "author": {

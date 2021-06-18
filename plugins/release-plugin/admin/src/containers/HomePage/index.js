@@ -59,9 +59,9 @@ const HomePage = () => {
         }}>
           <h1 style={{margin: "0 0 20px 0"}}>Release állapot:</h1>
           <h2>Teszt szerver:</h2>
-          <img src="https://teamcity.balasys/app/rest/builds/buildType:BalaSysWebsite_Builds_WebsiteGeneration_Develop/statusIcon" alt="teszt"/>
+          <img src="https://teamcity.balasys/app/rest/builds/buildType:BalaSysWebsite_Builds_WebsiteGeneration_Develop/statusIcon" alt="teszt" style={{width: "106px", height: "20px"}} />
           <h2>Élő site:</h2>
-          <img src="https://teamcity.balasys/app/rest/builds/buildType:BalaSysWebsite_Builds_WebsiteGenerationMaster/statusIcon" alt="balasys.hu"/>
+          <img src="https://teamcity.balasys/app/rest/builds/buildType:BalaSysWebsite_Builds_WebsiteGenerationMaster/statusIcon" alt="balasys.hu" style={{width: "106px", height: "20px"}} />
         </div>
         <div/>
       </div>
