@@ -1,0 +1,85 @@
+.release-wrapper{
+  display: grid;
+  padding: 20px 80px 20px 80px;
+  width: 60vw;
+  margin: auto;
+}
+
+.release-block{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: row;
+  grid-gap: 40px;
+  margin-bottom: 40px;
+}
+
+.full-block{
+  display: grid;
+  grid-gap: 40px;
+  grid-auto-flow: row;
+  width: 100%;
+}
+
+.card-release{
+  justify-self: stretch;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0 2px 4px 0 #e3e9f3;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.dev-button button{
+  background: #FF8C00;
+  border-radius: 3px;
+  border-color: #FF8C00;
+}
+
+.dev-button2 button{
+  background: #00BFFF;
+  border-radius: 3px;
+  border-color: #00BFFF;
+}
+
+.card-release h1{
+  margin-bottom: 20px;
+}
+
+.card-release h2{
+  margin-bottom: 10px;
+}
+
+.card-release button{
+  width: 100%;
+  height: 40px;
+}
+
+.card-release p{
+  font-size: 1.5rem;
+}
+
+.build-state{
+  width: 106px;
+  height: 20px;
+}
+
+.development-release{
+  margin-bottom: 40px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.development-release span {
+  color: #FF8C00;
+}
+
+.live-release{
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.live-release span{
+  color: #32CD32;
+}

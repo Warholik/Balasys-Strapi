@@ -7,6 +7,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/publishBlackowl",
+      "handler": "release-plugin.publishBlackowl",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
