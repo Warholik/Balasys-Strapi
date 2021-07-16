@@ -1,3 +1,3 @@
-# Strapi plugin release-plugin
+# Balasys Release Plugin
 
-A quick description of release-plugin.
+A Balasys release pluginja, strapihoz.

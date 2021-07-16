@@ -10,8 +10,24 @@
     },
     {
       "method": "GET",
+      "path": "/publishDev",
+      "handler": "release-plugin.publishDev",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/publishBlackowl",
       "handler": "release-plugin.publishBlackowl",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/publishBlackowlDev",
+      "handler": "release-plugin.publishBlackowlDev",
       "config": {
         "policies": []
       }

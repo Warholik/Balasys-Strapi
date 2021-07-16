@@ -24,8 +24,38 @@ const HomePage = () => {
     }
   };
 
+  const triggerPublishDev = async () => {
+    const result = await request(`/${pluginId}/publishDev`, {method: "GET"});
+    if (result.success === 200) {
+      strapi.notification.toggle({
+        type: 'success',
+        message: "Sikeres release.",
+      });
+    } else {
+      strapi.notification.toggle({
+        type: 'warning',
+        message: "Sikertelen release.",
+      });
+    }
+  };
+
   const triggerPublishBlackowl = async () => {
     const result = await request(`/${pluginId}/publishBlackowl`, {method: "GET"});
+    if (result.success === 200) {
+      strapi.notification.toggle({
+        type: 'success',
+        message: "Sikeres release.",
+      });
+    } else {
+      strapi.notification.toggle({
+        type: 'warning',
+        message: "Sikertelen release.",
+      });
+    }
+  };
+
+  const triggerPublishBlackowlDev = async () => {
+    const result = await request(`/${pluginId}/publishBlackowlDev`, {method: "GET"});
     if (result.success === 200) {
       strapi.notification.toggle({
         type: 'success',
@@ -49,7 +79,7 @@ const HomePage = () => {
           <div style={{textAlign: "center"}} className="dev-button">
             <Button
               icon={<FontAwesomeIcon icon={faUpload}/>}
-              onClick={() => triggerPublish()}
+              onClick={() => triggerPublishDev()}
             >
               Development
             </Button>
@@ -61,7 +91,7 @@ const HomePage = () => {
           <div style={{textAlign: "center"}} className="dev-button2">
             <Button
               icon={<FontAwesomeIcon icon={faUpload}/>}
-              onClick={() => triggerPublishBlackowl()}
+              onClick={() => triggerPublishBlackowlDev()}
             >
               Development
             </Button>
